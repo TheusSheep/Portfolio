@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* Exportação de Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Configuraões de padronização */
+
+:root{
+    --cor1:#8D69BF;
+    --cor2:#351B59;
+    --cor3:#0D0126;
+    --cor4:#BFBFBF;
+    --cor5:#262626;
+
+    --font-padrao: "Lato", sans-serif;
+    --font-destaque: "Bangers", system-ui;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor3);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* Cabeçalho da Página */
+
+header{
+    background-color: var(--cor1);
+}
+
+#cabecalho{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabecalho_titlo h1{
+    font: normal bolder 3.5em var(--font-destaque);
+}
+
+#cabecalho_titlo_logo{
+    max-width: 115px;
+    width: 100%;
+    height: auto;
+}
+
+/* Configuração do Main */
+
+main h2{
+    font: normal normal 1.5em var(--font-destaque);
+    text-align: left;
+}
+
+main p{
+    font: normal normal 1em var(--font-padrao);
+}
+
+/* Configuração section apresentação */
+
+#apresentacao{
+    background-color:  #351b59b7;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#apresentacao_text{
+    padding: 35px 10px;
+}
+
+#apresentacao_text h2{
+    padding: 5px 0px 5px 10px;
+    color: white;
+    font: normal normal 2em var(--font-destaque);
+}
+
+#apresentacao_text p{
+    color: white;
+    text-align: justify;
+    text-indent: 10px;
+    font: normal normal 1em var(--font-padrao);
+}
+
+#apresentacao_img{
+    background: var(--cor2) url(../img/background.webp) center top no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+#apresentacao_img img{
+    display: block;
+    margin: auto;
+    max-width: 330px;
+}
+
+/* Configurações Skill */
+
+#skill{
+    padding: 95px 0px 25px 0px;
+    background-color: var(--cor5);
+}
+
+#skill h2{
+    text-align: center;
+    font: normal bold 3.5em var(--font-destaque);
+}
+
+.skill_itens{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_itens i{
+    font-size: 5em;
+    transition: 0.3s;
+}
+
+.skill_itens p{
+    color: var(--cor1);
+    text-align: center;
+    font: normal normal 1em var(--font-padrao);
+}
+
+.skill_itens i:hover{
+    color: var(--cor1);
+    transform: translateY(-10px);
+}
+
+.item_text{
+    display: none;
+}
