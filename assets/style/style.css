@@ -34,10 +34,10 @@ img{
     height: auto;
 }
 
-/* Cabeçalho da Página */
+/* Config Cabeçalho */
 
 header{
-    background-color: var(--cor1);
+    background-image: linear-gradient(85deg, var(--cor2), var(--cor1));
 }
 
 #cabecalho{
@@ -57,7 +57,7 @@ header{
     height: auto;
 }
 
-/* Configuração do Main */
+/* Config do Main */
 
 main h2{
     font: normal normal 1.5em var(--font-destaque);
@@ -68,7 +68,7 @@ main p{
     font: normal normal 1em var(--font-padrao);
 }
 
-/* Configuração section apresentação */
+/* Configu Apresentação */
 
 #apresentacao{
     background-color:  #351b59b7;
@@ -107,10 +107,10 @@ main p{
     max-width: 330px;
 }
 
-/* Configurações Skill */
+/* Config Skill */
 
 #skill{
-    padding: 95px 0px 25px 0px;
+    padding: 25px 0px;
     background-color: var(--cor5);
 }
 
@@ -120,7 +120,7 @@ main p{
 }
 
 .skill_itens{
-    padding: 15px 0px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,11 +128,14 @@ main p{
 }
 
 .skill_itens i{
-    font-size: 5em;
+    font-size: 7em;
     transition: 0.3s;
 }
 
 .skill_itens p{
+    display: none;
+    padding: 10px 10px;
+
     color: var(--cor1);
     text-align: center;
     font: normal normal 1em var(--font-padrao);
@@ -141,8 +144,4 @@ main p{
 .skill_itens i:hover{
     color: var(--cor1);
     transform: translateY(-10px);
-}
-
-.item_text{
-    display: none;
 }

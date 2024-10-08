@@ -1,1 +1,52 @@
 @charset "UTF-8";
+
+@media only screen and (min-width: 768px){
+    /* Config Cabeçalho */
+    #cabecalho_titlo h1{
+        font-size: 5em;
+    }
+
+    #cabecalho_titlo_logo{
+        max-width: 150px;
+    }
+
+    /* Config Apresentação */
+    #apresentacao{
+        background: var(--cor2) url(../img/background.webp) top center no-repeat fixed;
+        background-size: cover;
+        flex-direction: row;
+    }
+
+    #apresentacao_text{
+        background-color: #351b597a;
+        margin-left: 35px;
+    }
+
+    #apresentacao_text h2{
+        font-size: 3.5em;
+    }
+
+    #apresentacao_text p{
+        font-size: 1.2em;
+    }
+
+    #apresentacao_img{
+        background: none;
+    }
+
+    /* Config Skill */
+    #caixa_skill{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+
+    #skill_itens{
+        max-width: 180px;
+    }
+
+    #skill_itens p{
+        
+    }
+}
