@@ -56,15 +56,15 @@
     }
 
     .card_projeto{
-        width: 500px;
+        width: 575px;
         height: 250px;
         flex-direction: row;
         align-items: center;
     }
 
-    .card_projeto_img{
+    .card_projeto_img img{
         border-radius: 10px 0px 0px 10px;
-        padding: 125px 145px;
+        height: 100%;
     }
 
     .card_projeto_text{
@@ -72,5 +72,19 @@
         padding: 0px;
         width: 100%;
         height: 100%;
+    }
+
+    /* Config Footer */
+    footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    footer h3{
+        font-size: 2em;
+    }
+
+    footer a{
+        font-size: 1.2em;
     }
 }
