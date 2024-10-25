@@ -15,6 +15,7 @@
         background: var(--cor2) url(../img/background.webp) top center no-repeat fixed;
         background-size: cover;
         flex-direction: row;
+        padding: 17px 0px;
     }
 
     #apresentacao_text{
@@ -23,15 +24,20 @@
     }
 
     #apresentacao_text h2{
-        font-size: 3.5em;
+        font-size: 3.7em;
     }
 
     #apresentacao_text p{
-        font-size: 1.2em;
+        font-size: 1.5em;
+        text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.575);
     }
 
     #apresentacao_img{
         background: none;
+    }
+
+    #apresentacao_img img{
+        max-width: 445px;
     }
 
     /* Config Skill */
