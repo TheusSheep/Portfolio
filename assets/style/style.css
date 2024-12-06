@@ -139,7 +139,9 @@ main p{
 }
 
 .skill_itens > i{
+    color: var(--cor1);
     font-size: 7em;
+    text-shadow: 5px 2px 2px #0d01263b;
     transition-duration: 0.3s;
 }
 
