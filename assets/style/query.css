@@ -45,13 +45,18 @@
         padding: 50px 0px 100px 0px;
     }
 
-    #caixa_skill{
+    .caixa_skill{
         flex-direction: row;
         align-items: flex-start;
     }
 
     .skill_itens{
         margin-bottom: 0px;
+    }
+
+    #caixa2{
+        margin-top: 50px;
+        justify-content: center;
     }
 
     /* Config Projeto */
