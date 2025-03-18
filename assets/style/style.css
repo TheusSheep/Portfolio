@@ -49,12 +49,12 @@ header{
 }
 
 #cabecalho_titlo h1{
-    font: normal bolder 3.5em var(--font-destaque);
+    font: normal bolder 2em var(--font-destaque);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.247);
 }
 
 #cabecalho_titlo_logo{
-    max-width: 115px;
+    max-width: 100px;
     width: 100%;
     height: auto;
 }
@@ -199,11 +199,21 @@ main p{
 }
 
 .card_projeto_text > p{
-    padding: 55px 0px;
+    padding: 55px 10px;
     text-align: center;
     color: var(--cor4);
-    font: normal bold 2em var(--font-destaque);
+    font: normal normal 1.2em var(--font-destaque);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.158);
+}
+
+.card_projeto_text p > a{
+    display: block;
+    margin-top: 25px;
+}
+
+.card_projeto_text p > a:hover{
+    transition-duration: 0.2s;
+    color: white;
 }
 
 /* Config Footer */
